@@ -11,6 +11,10 @@ public class WordTest {
     assertEquals(true, testWord instanceof Word);
   }
 
-
+  @Test
+  public void getWord_returnsWord_true() {
+    Word testWord = new Word ("Word");
+    assertEquals("Word", testWord.getWord());
+  }
 
 }
