@@ -57,7 +57,7 @@ public class App {
     get("/definitions", (request, response) -> {
       HashMap<String, Object> model = new HashMap<String, Object>();
       model.put("definitions", Definition.all());
-      model.put("template", "templates/definitions.vtl");
+      model.put("template", "templates/word.vtl");
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
