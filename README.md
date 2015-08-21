@@ -21,15 +21,16 @@ _This application helps to create a custom dictionary by entering your favorite 
 * _FluentLenium version 0.10.3_
 * _Gradle_
 
-_Clone this repository and run with Gradle (type "gradle run in your command line). Open localhost:4567 in your browser._
-_You can download Gradle here http://gradle.org/gradle-download/ _
-_You can download JUnit here http://junit.org/  or here  https://github.com/junit-team/junit/wiki/Download-and-Install _
-_You can download FluentLenium here http://www.fluentlenium.org/ _
+
+-Clone this repository and run with Gradle (type "gradle run in your command line). Then open localhost:4567 in your browser.
+-You can download Gradle here (http://gradle.org/gradle-download/)
+-You can download JUnit here (http://junit.org/)  or here  (https://github.com/junit-team/junit/wiki/Download-and-Install)
+-You can download FluentLenium here (http://www.fluentlenium.org/)
 
 
 ## Tests
 
--There are both unit and integration tests associated with this application. The test files can be found in the /src/test/java folder. To run the test suite, you'll need to type ``gradle test`` in your command line._
+_There are both unit and integration tests associated with this application. The test files can be found in the /src/test/java folder. To run the test suite, you'll need to type ``gradle test`` in your command line._
 
 
 ## Technologies Used
