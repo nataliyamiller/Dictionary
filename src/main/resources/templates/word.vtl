@@ -1,0 +1,10 @@
+<h3>Your saved definitions for this word: </h3>
+
+#foreach($definition in $word.getDefinitions())
+  <h3>$definition.getDescription()</h3>
+#end
+
+<ul>
+<li><a href="/words/$word.getId()/definitions/new">Add a definition</a></li>
+<li><a href="/">Return to main page</a></li>
+</ul>
