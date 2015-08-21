@@ -49,4 +49,11 @@ public class WordTest {
     Word testWord = new Word ("Word");
     assertEquals(Word.find(testWord.getId()), testWord);
   }
+
+  @Test
+  public void find_returnsNullWhenNoWordFound_null() {
+    Word testWord = new Word ("Word");
+    assertTrue(Word.find(1000) == null);
+  }
+
 }
