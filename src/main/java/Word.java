@@ -40,8 +40,10 @@ public class Word {
     } catch (IndexOutOfBoundsException e) {
       return null;
     }
-
   }
 
+  public void addDefinition (Definition definitionToAdd) {
+    mDefinitions.add(definitionToAdd);
+  }
 
 }

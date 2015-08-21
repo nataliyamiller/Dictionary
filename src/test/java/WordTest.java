@@ -56,4 +56,11 @@ public class WordTest {
     assertTrue(Word.find(1000) == null);
   }
 
+  @Test
+  public void addDefinition_addsDefinitionToList_true() {
+    Word testWord = new Word ("Word");
+    Definition testDefinition = new Definition ("a unit of language, consisting of one or more spoken sounds");
+    testWord.addDefinition(testDefinition);
+    assertTrue(testWord.getDefinitions().contains(testDefinition));
+  }
 }
