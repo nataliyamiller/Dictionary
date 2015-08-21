@@ -44,4 +44,9 @@ public class WordTest {
     assertTrue(Word.all().size() == 0);
   }
 
+  @Test
+  public void find_returnsWordWithSameId() {
+    Word testWord = new Word ("Word");
+    assertEquals(Word.find(testWord.getId()), testWord);
+  }
 }

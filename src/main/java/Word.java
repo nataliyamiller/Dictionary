@@ -33,6 +33,15 @@ public class Word {
   public ArrayList<Definition> getDefinitions() {
     return mDefinitions;
   }
-  
+
+  public static Word find(int id) {
+    try {
+      return instances.get(id-1);
+    } catch (IndexOutOfBoundsException e) {
+      return null;
+    }
+
+  }
+
 
 }
