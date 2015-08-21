@@ -30,4 +30,13 @@ public class AppTest extends FluentTest {
     goTo("http://localhost:4567/");
     assertThat(pageSource()).contains("Your Custom Dictionary!");
   }
+
+  @Test
+  public void wordIsCreatedTest() {
+    goTo("http://localhost:4567/");
+    click("a", withText("Add a new word to your dictionary"));
+    fill("#name").with("Word");
+    submit(".btn");
+    assertThat(pageSource().contains("Your word has been saved!"));
+  }
 }
