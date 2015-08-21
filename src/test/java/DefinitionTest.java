@@ -26,7 +26,18 @@ public class DefinitionTest {
     assertTrue(Definition.all().contains(secondDefinition));
   }
 
+  @Test
+  public void newId_definitionsInstantiateWithAnID_true() {
+    Definition testDefinition = new Definition ("a unit of language, consisting of one or more spoken sounds.");
+    assertEquals(Definition.all().size(), testDefinition.getId());
+  }
 
+  @Test
+  public void find_returnsDefinitionWithSameId_secondDefinition() {
+    Definition firstDefinition = new Definition("a unit of language, consisting of one or more spoken sounds.");
+    Definition secondDefinition = new Definition("a grammatical unit of one or more words that expresses an independent statement.");
+    assertEquals(Definition.find(secondDefinition.getId()), secondDefinition);
+  }
 
 
 }
