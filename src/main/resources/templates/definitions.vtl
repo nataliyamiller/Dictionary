@@ -1,9 +1,9 @@
 <h1>You saved those definitions for this word: </h1>
 
-<ol>
 #foreach ($definition in $definitions)
+<ol>
   <li><a href="/definitions/$definition.getId()">$definition.getDescription()</a></li>
-#end
 </ol>
+#end
 
 <a href="definitions/new">Add another definition</a>
