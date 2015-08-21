@@ -2,11 +2,11 @@
 
 _Java Project by Nataliya Bareeva-Miller_
 
-##Epicodus Java/Android Summer 2015
+###Epicodus Java/Android Summer 2015
 
-##Second Week Object Oriented Java Code Review
+###Second Week Object Oriented Java Code Review
 
-## Description
+### Description
 
 _This application helps to create a custom dictionary by entering your favorite words and their definitions. You can keep adding definitions to your words as you keep learning!_
 
@@ -22,10 +22,10 @@ _This application helps to create a custom dictionary by entering your favorite 
 * _Gradle_
 
 
--Clone this repository and run with Gradle (type "gradle run in your command line). Then open localhost:4567 in your browser.
--You can download Gradle here (http://gradle.org/gradle-download/)
--You can download JUnit here (http://junit.org/)  or here  (https://github.com/junit-team/junit/wiki/Download-and-Install)
--You can download FluentLenium here (http://www.fluentlenium.org/)
+- Clone this repository and run with Gradle (type "gradle run in your command line). Then open localhost:4567 in your browser.
+- You can download Gradle here (http://gradle.org/gradle-download/)
+- You can download JUnit here (http://junit.org/)  or here  (https://github.com/junit-team/junit/wiki/Download-and-Install)
+- You can download FluentLenium here (http://www.fluentlenium.org/)
 
 
 ## Tests
