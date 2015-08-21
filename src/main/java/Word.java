@@ -18,7 +18,15 @@ public class Word {
     mId = instances.size();
   }
 
-  public String getWord () {
+  public String getWord() {
     return mWord;
+  }
+
+  public int getId() {
+    return mId;
+  }
+
+  public static ArrayList<Word> all() {
+    return instances;
   }
 }

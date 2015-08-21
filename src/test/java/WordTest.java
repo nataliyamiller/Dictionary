@@ -17,4 +17,9 @@ public class WordTest {
     assertEquals("Word", testWord.getWord());
   }
 
+  @Test
+  public void getId_returnsWordId_true() {
+    Word testWord = new Word ("Word");
+    assertTrue(testWord.all().size() == testWord.getId());
+  }
 }
