@@ -9,7 +9,7 @@ public class Word {
 
   private String mWord;
   private int mId;
-  private ArrayList<Definition> mDefinitions;
+  private ArrayList<Definition> mDefinitions; 
 
   public Word (String word) {
     mWord = word;
@@ -28,5 +28,9 @@ public class Word {
 
   public static ArrayList<Word> all() {
     return instances;
+  }
+
+  public ArrayList<Definition> getDefinitions() {
+    return mDefinitions;
   }
 }

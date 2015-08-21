@@ -22,4 +22,11 @@ public class WordTest {
     Word testWord = new Word ("Word");
     assertTrue(testWord.all().size() == testWord.getId());
   }
+
+  @Test
+  public void getDefinitions_initiallyReturnsEmptyArrayList_true() {
+    Word testWord = new Word ("Word");
+    assertTrue(testWord.getDefinitions() instanceof ArrayList);
+  }
+
 }
