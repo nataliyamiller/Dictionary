@@ -29,4 +29,13 @@ public class WordTest {
     assertTrue(testWord.getDefinitions() instanceof ArrayList);
   }
 
+  @Test
+  public void all_returnsAllInstancesofDefinitions_true() {
+    Word firstWord = new Word ("Word");
+    Word secondWord = new Word ("Sentence");
+    assertTrue(Word.all().contains(firstWord));
+    assertTrue(Word.all().contains(secondWord));
+  }
+
+
 }
