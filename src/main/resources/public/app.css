@@ -1,0 +1,33 @@
+body {
+  background-color: #CCFF99;
+}
+
+h1 {
+  color: #333399;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 50px;
+}
+
+h3 {
+  color: #9900CC;
+  text-align: center, justify;
+}
+
+a {
+  color: #990000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px;
+  border: 50px;
+}
+
+img {
+hight: 350px;
+width: 350px;
+position: relative;
+margin: 100px;
+}
