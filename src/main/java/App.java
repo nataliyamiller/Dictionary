@@ -9,5 +9,5 @@ public class App {
    staticFileLocation("/public");
     String layout = "templates/layout.vtl";
 
-  
+  }
 }
