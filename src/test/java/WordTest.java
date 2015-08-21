@@ -37,5 +37,11 @@ public class WordTest {
     assertTrue(Word.all().contains(secondWord));
   }
 
+  @Test
+  public void clear_removesAllInstancesOfWordFromMemory_true() {
+    Word testWord = new Word ("Word");
+    Word.clear();
+    assertTrue(Word.all().size() == 0);
+  }
 
 }
