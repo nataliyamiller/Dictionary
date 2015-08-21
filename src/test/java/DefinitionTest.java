@@ -40,4 +40,17 @@ public class DefinitionTest {
   }
 
 
+  @Test
+  public void find_returnsNullWhenNoDefinitionFound_null() {
+    assertTrue(Definition.find(1000) == null);
+  }
+
+  @Test
+  public void clear_emptiesAllDefinitionsFromArrayList() {
+    Definition testDefinition = new Definition("a unit of language, consisting of one or more spoken sounds.n");
+    Definition.clear();
+    assertEquals(Definition.all().size(), 0);
+  }
+
+
 }
