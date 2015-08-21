@@ -1,7 +1,7 @@
 import java.util.ArrayList;
-
 import org.junit.*;
 import static org.junit.Assert.*;
+
 
 public class WordTest {
 
@@ -63,4 +63,5 @@ public class WordTest {
     testWord.addDefinition(testDefinition);
     assertTrue(testWord.getDefinitions().contains(testDefinition));
   }
+  
 }

@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-
 import org.fluentlenium.adapter.FluentTest;
 import org.junit.ClassRule;
 import org.junit.Rule;
@@ -72,5 +71,4 @@ public class AppTest extends FluentTest {
     submit(".btn");
     assertThat(pageSource()).contains("a grammatical unit of one or more words that expresses an independent statement.");
   }
-
 }

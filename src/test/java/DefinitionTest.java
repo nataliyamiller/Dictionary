@@ -1,6 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
+
 public class DefinitionTest {
 
   @Rule
@@ -39,7 +40,6 @@ public class DefinitionTest {
     assertEquals(Definition.find(secondDefinition.getId()), secondDefinition);
   }
 
-
   @Test
   public void find_returnsNullWhenNoDefinitionFound_null() {
     assertTrue(Definition.find(1000) == null);
@@ -51,4 +51,5 @@ public class DefinitionTest {
     Definition.clear();
     assertEquals(Definition.all().size(), 0);
   }
+  
 }

@@ -1,12 +1,8 @@
 import java.util.ArrayList;
 
 public class Word {
+
   private static ArrayList<Word> instances = new ArrayList<Word>();
-
-  public static void clear() {
-    instances.clear();
-  }
-
   private String mWord;
   private int mId;
   private ArrayList<Definition> mDefinitions;
@@ -30,6 +26,10 @@ public class Word {
     return instances;
   }
 
+  public void addDefinition (Definition definitionToAdd) {
+    mDefinitions.add(definitionToAdd);
+  }
+
   public ArrayList<Definition> getDefinitions() {
     return mDefinitions;
   }
@@ -42,8 +42,8 @@ public class Word {
     }
   }
 
-  public void addDefinition (Definition definitionToAdd) {
-    mDefinitions.add(definitionToAdd);
+  public static void clear() {
+    instances.clear();
   }
 
 }
