@@ -22,7 +22,9 @@ _This application helps to create a custom dictionary by entering your favorite 
 * _Gradle_
 
 
-- Clone this repository and run with Gradle (type "gradle run in your command line). Then open localhost:4567 in your browser.
+- Clone this repository and run with Gradle (type "gradle run" in your command line). Then open localhost:4567 in your browser.
+- You can also run this application in Heroku. You can install HerokuToolbelt here (https://toolbelt.heroku.com/).
+  You will need to create an account on Heroku (it's free). To run applicaiton type "heroku login" and "heroku create" commands in your command line.
 - You can download Gradle here (http://gradle.org/gradle-download/)
 - You can download JUnit here (http://junit.org/)  or here  (https://github.com/junit-team/junit/wiki/Download-and-Install)
 - You can download FluentLenium here (http://www.fluentlenium.org/)
