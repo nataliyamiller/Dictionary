@@ -8,7 +8,7 @@ _Java Project by Nataliya Bareeva-Miller_
 
 ### Description
 
-_This application helps to create a custom dictionary by entering your favorite words and their definitions. You can keep adding definitions to your words as you keep learning!_
+_This application helps you create a custom dictionary by entering your favorite words and their definitions. You can keep adding definitions to your words as you keep learning!_
 
 
 ## Setup
